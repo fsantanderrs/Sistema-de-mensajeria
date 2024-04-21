@@ -1,0 +1,148 @@
+body{
+    display: flex;
+}
+
+menu{
+    display: flex;
+}
+
+main{
+    display: flex;
+    flex: 85%;
+}
+
+.usuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    border-bottom: solid 1px #c3c3c3;
+    border-right: solid 1px #c3c3c3;
+}
+
+.usuario img{
+    width: 3em;
+    border-radius: 60%;
+}
+
+.info-usuario{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nombre-estado{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-estado p{
+    margin: 0;
+}
+
+.iconos{
+    display: flex;
+    gap: 1em;
+}
+
+.boton{
+    border-bottom: solid 1px #c3c3c3;
+    border-right: solid 1px #c3c3c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+}
+
+.btn{
+    padding: 11px 45px;
+    background-color: #A491D2;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    color: white;
+    border: none;
+  }
+
+.chat{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #c3c3c3;
+    border-right: solid 1px #c3c3c3;
+    gap: 10px;
+    padding: 15px 0 22px 15px;
+}
+
+.foto-perfil{
+    justify-content: center;
+    align-items: center;
+}
+
+.chat img{
+    width: 3em;
+    border-radius: 60%;
+}
+
+.contacto-mensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-mensaje p{
+    margin: 0;
+}
+
+.centro{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centro img{
+    width: 20em;
+    margin-bottom: 30px;
+}
+
+.centro p{
+    text-align: center;
+    margin: 0;
+}
+
+.titulo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.3em;
+}
+
+.subtitulo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.nombre-usuario {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+.estado-usuario {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.7em;
+}
+
+.contacto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mensaje{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
